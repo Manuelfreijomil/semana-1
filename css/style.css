@@ -1,3 +1,50 @@
-#titulo-pagina{
+#cabecera{
     background-color: yellowgreen;
+}
+#contenedor-t-prin{
+    width: 90%;
+    margin: 20px;
+    box-sizing: border-box;
+}
+.d1{
+    float: left;
+    margin: 10px;
+}
+.d2{
+    float: right;
+    margin: 10px;
+}
+.contenedor-nav{
+    width: 90%;
+    border: 1px solid red;
+    position: relative;
+}
+.contenedor-nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+.contenedor-nav li{
+    display: inline;
+}
+.articulo-aside{
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#principal{
+    float: left;
+    width: 70%;
+    background: lightgreen;
+
+}
+#barra-lateral{
+    float: right;
+    width: 30%;
+    background: tomato;
+    box-sizing: border-box;
+    padding: 16px;
+    text-align: center;
 }
