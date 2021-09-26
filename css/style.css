@@ -73,8 +73,10 @@ body{
 #principal{
     float: left;
     width: 70%;
-    height: 3800px;
+    height: auto;
     background: white;
+    align-items: center;
+    justify-content: center;
 }
 .g3{
     width: 100%;
@@ -88,10 +90,7 @@ body{
 .g5{
     color: #789;
 }
-#principal{
-    align-items: center;
-    justify-content: center;
-}
+
 #principal h1{
     font: 700 36px/38px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     margin-right: 200px;
@@ -99,7 +98,7 @@ body{
 #barra-lateral{
     float: right;
     width: 28%;
-    height: 3800px;
+    height: auto;
     background: tomato;
     box-sizing: border-box;
     padding: 16px;
@@ -196,4 +195,11 @@ body{
     width: 100%;
     position: relative;
     top: 7px;
+}
+#pie p{
+    width: 100%;
+    background-color:#d2691e;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
 }
