@@ -46,6 +46,10 @@ body{
     margin: 0px;
     padding: 0px;
 }
+.contenedor3{
+    position: relative;
+    bottom: 20px;
+}
 .g1{
     float: left;
     font: 700 16px/20px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
@@ -58,9 +62,7 @@ body{
     float:left;
     font: 700 16px/20px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     margin-left: 10px;
-}
-.publicado{
-    position: fixed;
+    display: block;
 }
 .articulo-aside{
     overflow: hidden;
@@ -71,7 +73,7 @@ body{
 #principal{
     float: left;
     width: 70%;
-    height: 4000px;
+    height: 3800px;
     background: white;
 }
 .g3{
@@ -97,7 +99,7 @@ body{
 #barra-lateral{
     float: right;
     width: 28%;
-    height: 4000px;
+    height: 3800px;
     background: tomato;
     box-sizing: border-box;
     padding: 16px;
@@ -131,6 +133,20 @@ body{
     margin-top: 10px;
     font: 700 14px/18px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
 }
+.bajo-bajo1{
+    width: 80%;
+    margin: 3px 0 11px;
+    color: #303030;
+    font: 700 16px/18px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+}
+.bajo-bajo2{
+    width: 80%;
+    margin: 3px 0 11px;
+    color: #303030;
+    position: relative;
+    display: block;
+    font: 12px/15px 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;  
+}
 .img2{
     width: 100%;
     height: 453px;
@@ -143,10 +159,11 @@ body{
 .publicado-actualizado p{
     font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 12px;
-    display: block;
+    position: relative;
+    right: 181px;
+    top: 3px;
 }
 .contenedor4{
-    display: block;
     width: 80%;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -158,10 +175,25 @@ body{
 .bajo{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    margin-top: 0;
+    margin-top: 5px;
     margin-left: 3px;
     color:black;
     font-size: 13px;
     line-height: 15px;
-    
+    position: relative;
+    top: 5px;
+}
+.bajo-foto2{
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    background-color: #303030;
+    border-top: 4px #0098fe solid;
+    display: inline-block;
+    color:#fff;
+}
+.img3{
+    width: 100%;
+    position: relative;
+    top: 7px;
 }
