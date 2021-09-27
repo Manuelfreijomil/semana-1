@@ -29,6 +29,7 @@ body{
 #navbar ul{
     padding: 0;
     list-style: none;
+    margin: 0px;
 }
 #navbar li{
     display: inline;
@@ -104,6 +105,8 @@ body{
     padding: 16px;
     text-align: center;
     display: block;
+    font-size: 20px;
+    line-height: 250px;
 }
 .img{
     position: relative;
@@ -196,10 +199,24 @@ body{
     position: relative;
     top: 7px;
 }
-#pie p{
+#pie{
     width: 100%;
-    background-color:#d2691e;
+    background-color:#b5ffe0;
     height: 100px;
+    text-align: center;
+    transform: translateX(-50%),translateY(-50%);
+}
+.p1{
+    font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    float:left;
+}
+.imagenes{
+    float: right;
+    position: relative;
+    right: 180px;
+}
+
+#pie img{
     align-items: center;
-    justify-content: center;
 }
