@@ -224,9 +224,15 @@ a:-webkit-any-link {
     transform: translateX(-50%),translateY(-50%);
 }
 .p1{
-    font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     font-size: 0.75em;
     float:left;
+    font: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    color: black;
+    padding-bottom: 4px;
+    text-decoration: underline;
+    text-decoration-color: #0098fe;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
 }
 .imagenes{
     float: right;
