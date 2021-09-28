@@ -55,13 +55,15 @@ body{
     float: left;
     font: 700 16px/20px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     color: black;
+    padding-bottom: 4px;
     text-decoration: underline;
     text-decoration-color: #0098fe;
     text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
 }
 .g2{
     float:left;
-    font: 700 16px/20px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font: 16px/20px 'Georgia Pro',Georgia,'Droid Serif',serif;
     margin-left: 10px;
     display: block;
 }
@@ -74,7 +76,7 @@ body{
 #principal{
     float: left;
     width: 70%;
-    height: auto;
+    height: 20px;
     background: white;
     align-items: center;
     justify-content: center;
@@ -82,19 +84,32 @@ body{
 .g3{
     width: 100%;
     height: 20px;
-    font: 700 18px/20px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
+    font-family: 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     margin-top: 20px ;
+}
+a:-webkit-any-link {
+    color: #000;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #0098fe;
 }
 .g4{
     color:#aa1e23;
+    margin-top: 24px;
+    font-size: 14px;
+    font-weight: bold;
 }
 .g5{
     color: #789;
+    padding: 3px;
+    margin: -3 0 0 4px;
+    font: 700 14px/1 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
 }
 
 #principal h1{
     font: 700 36px/38px 'Unify Sans','Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
     margin-right: 200px;
+    margin-top: 6px;
 }
 #barra-lateral{
     float: right;
@@ -102,21 +117,21 @@ body{
     height: auto;
     background: tomato;
     box-sizing: border-box;
-    padding: 16px;
+    padding: 1em;
     text-align: center;
     display: block;
-    font-size: 20px;
-    line-height: 250px;
+    font-size: 1.25em;
+    line-height: 16.625em;
 }
 .img{
     position: relative;
-    top: 5px;
+    top: 0.3125em;
     width: 80%;
-    height: 372;
+    height: 23.25em;
 }
 .bajo-foto{
     width: 80%;
-    height: 36px;
+    height: 2.25em;
     margin: 0;
     background-color: #303030;
     border-top: 4px #0098fe solid;
@@ -153,17 +168,18 @@ body{
     width: 100%;
     height: 453px;
     position: relative;
-    top: 20px;
+    top: 1.25em;
 }
 .contenedor2{
     height: 5px;
 }
 .publicado-actualizado p{
     font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
+    width: 100%;
+    overflow: auto;
     position: relative;
-    right: 181px;
-    top: 3px;
+    bottom: 1.125em;
 }
 .contenedor4{
     width: 80%;
@@ -172,22 +188,23 @@ body{
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     color: #303030;
-    font: 18px/27px 'Georgia Pro',Georgia,'Droid Serif',serif;
+    font: 1.125em/1.6875em 'Georgia Pro',Georgia,'Droid Serif',serif;
+    text-align: justify;
 }
 .bajo{
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
-    margin-top: 5px;
-    margin-left: 3px;
+    margin-top: 0.3125em;
+    margin-left: 0.1875em;
     color:black;
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 0.8125em;
+    line-height: 0.9375em;
     position: relative;
-    top: 5px;
+    top: 0.3125em;
 }
 .bajo-foto2{
     width: 100%;
-    height: 36px;
+    height: 2.25em;
     margin: 0;
     background-color: #303030;
     border-top: 4px #0098fe solid;
@@ -197,24 +214,24 @@ body{
 .img3{
     width: 100%;
     position: relative;
-    top: 7px;
+    top: 0.5em;
 }
 #pie{
     width: 100%;
     background-color:#b5ffe0;
-    height: 100px;
+    height: 6.25em;
     text-align: center;
     transform: translateX(-50%),translateY(-50%);
 }
 .p1{
     font-family: 'Helvetica Neue','Arial Nova',Helvetica,Arial,sans-serif;
-    font-size: 12px;
+    font-size: 0.75em;
     float:left;
 }
 .imagenes{
     float: right;
     position: relative;
-    right: 180px;
+    right: 11.25em;
 }
 
 #pie img{
